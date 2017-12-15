@@ -8,13 +8,5 @@
 		<members>*</members>
 		<name>ApexTrigger</name>
 	</types>
-		<types>
-		<members>*</members>
-		<name>Layout</name>
-	</types>
-	<types>
-		<members>Trigger_Config__mdt</members>
-		<name>CustomObject</name>
-	</types>
 	<version>35.0</version>
 </Package>
