@@ -18,6 +18,7 @@ public without sharing class NF_TriggerFactory {
     static{
         TriggerHandlerMap = new Map<Schema.sObjectType, String>();
         TriggerHandlerMap.put(Contact.sObjectType, 'NF_ContactTriggerHandler_Sample');
+        TriggerHandlerMap.put(Account.sObjectType, 'NF_AccountTriggerHandler');//To execute our logic
     }
     
     /**
